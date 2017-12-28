@@ -12,15 +12,15 @@ Gets the surf conditions for a specific beach ID.
 
 | **Path parameter**| **Description** |
 |----------------|-------------|
-|{beachId} |	Refers to the ID for the beach you want to look up. All Beach ID codes are available from our site at sampleurl.com.|
+| **{beachId}** |	Refers to the ID for the beach you want to look up. All Beach ID codes are available from our site at sampleurl.com.|
 
-###Query string parameters
+### Query string parameters
 
 | **Query string parameter** |	**Required / optional** |	Description |	Type |
 |---|---|---|---|
-|days	| Optional	| The number of days to include in the response. Default is 3.	| Integer|
-|units	 | Optional	| Options are either imperial or metric. Whether to return the values in imperial or metric measurements. Imperial will use feet, knots, and fahrenheit. Metric will use centimeters, kilometers per hour, and celsius. metric is the default. | 	String |
-|time	| Optional	| If you include the time, then only the current hour will be returned in the response. |	Integer. Unix format (ms since 1970) in UTC. |
+| **days**	| Optional	| The number of days to include in the response. Default is 3.	| Integer|
+| **units**	 | Optional	| Options are either imperial or metric. Whether to return the values in imperial or metric measurements. Imperial will use feet, knots, and fahrenheit. Metric will use centimeters, kilometers per hour, and celsius. metric is the default. | 	String |
+| **time**	| Optional	| If you include the time, then only the current hour will be returned in the response. |	Integer. Unix format (ms since 1970) in UTC. |
 
 ## Sample request
 ```
