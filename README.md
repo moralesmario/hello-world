@@ -43,7 +43,7 @@ Add additional notes about how to deploy this on a live system.
 Details on how to submit pull requests to make a contribution for the project.
 
 ## Best Practices
-Details on how to contribute to the project adhering to your project or company best practices.
+Details on how to contribute to the project adhering to your project's or company's best practices.
 
 ## License
 This project is licensed under...
